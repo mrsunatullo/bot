@@ -36,11 +36,6 @@ def get_user_photo(message):
 #
 # #барои созтани кнопкаҳо
 #
-# @bot.message_handler(commands=["website"])
-# def get_user_photo(message):
-#     markup = types.InlineKeyboardMarkup()
-#     markup.add(types.InlineKeyboardButton("Open website", url = 'google.com'))
-#     bot.send_message(message.chat.id, "Go to the website", reply_markup=markup)
 
 bot.polling(none_stop=True)
 
